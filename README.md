@@ -16,7 +16,7 @@
 
 </div>
 
-## 🎯 Overview & Purpose
+## Overview & Purpose
 
 <div align="justify">
 
@@ -30,7 +30,7 @@ Selecting a monospace coding font and colour scheme is often treated as a matter
 
 </div>
 
-## 📁 Repository Test Suite
+## Repository Test Suite
 
 <div align="justify">
 
@@ -48,7 +48,7 @@ The repository contains six specialised sample files and a ready-to-open Sublime
 
 </div>
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 
@@ -85,7 +85,7 @@ Place [`sample.sh`](sample.sh) or [`sample.py`](sample.py) alongside [`sample.go
 
 </div>
 
-## 🔬 What to Evaluate
+## What to Evaluate
 
 ### 1. Glyph Disambiguation & Punctuation Clarity
 
@@ -140,7 +140,7 @@ Evaluate how your current colour scheme handles fine-grained scopes:
 
 </div>
 
-## ⚙️ Sublime Text Configuration Guide
+## Sublime Text Configuration Guide
 
 <div align="justify">
 
@@ -220,7 +220,7 @@ This displays the full selector chain (e.g., `source.go entity.name.function.go`
 
 </div>
 
-## 🎨 Recommended Fonts & Colour Schemes to Compare
+## Recommended Fonts & Colour Schemes to Compare
 
 ### Popular Monospace Coding Fonts to Test
 
@@ -248,7 +248,7 @@ This displays the full selector chain (e.g., `source.go entity.name.function.go`
 
 </div>
 
-## 📄 Licence
+## Licence
 
 <div align="justify">
 
