@@ -1,0 +1,221 @@
+# ==============================================================================
+# Git Ignore Rules: sublime-font-checks
+# Standards: POSIX / Linux, Sublime Text, Direnv, Cloud & Local Secrets,
+#            Terraform, Go, Kubernetes & Multi-Technology Toolchains
+# Reference: https://github.com/benweston/dx-scripts/blob/main/.gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Secrets, Credentials & Local Environment
+# ------------------------------------------------------------------------------
+# Environment configuration & Direnv
+.direnv/
+.envrc
+.env
+.env.*
+.env*.local
+*.env
+*.env.*
+env-variables.txt
+
+# Preserve public environment templates and examples
+!.env.example
+!.env.*.example
+!.envrc.example
+
+# SSH keys, configs & identity stores
+**/.ssh/id_*
+**/.ssh/*_id_*
+**/.ssh/known_hosts
+**/.ssh/config
+id_rsa*
+id_ecdsa*
+id_ed25519*
+
+# Certificates, private keys & cryptographic keystores
+*.pem
+*.key
+*.pkcs8
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.pub
+
+# GPG & Secret Keyrings
+secring.*
+*.gpg
+*.asc
+
+# Cloud CLI credentials, tokens & configs
+doctl/
+*.do_token
+.kube/
+.kube/config
+.aws/
+.azure/
+.gcloud/
+
+# ------------------------------------------------------------------------------
+# 2. Editor & IDE (Sublime Text & Common Workstations)
+# ------------------------------------------------------------------------------
+# Sublime Text workspace states (cursor locations, layout, active tabs)
+*.sublime-workspace
+
+# Project configuration (uncomment if project file is strictly private)
+*.sublime-project
+
+# Package Control runtime artifacts & certificate bundles
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+oscrypto-ca-bundle.crt
+
+# Sublime cache, session data & sensitive plugin settings
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.cache
+bh_unicode_properties.cache
+GitHub.sublime-settings
+sftp-config.json
+sftp-config-alt*.json
+
+# Alternative IDE & editor metadata
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# ------------------------------------------------------------------------------
+# 3. Operating System & Filesystem (Linux / POSIX, macOS, Windows)
+# ------------------------------------------------------------------------------
+# Editor recovery, lock files & auto-saves
+*~
+*.swp
+*.swo
+.#*
+\#*#
+
+# Network & filesystem artifacts
+.fuse_hidden*
+.nfs*
+
+# Desktop environment metadata, thumbnails & trash
+.directory
+.Trash-*
+.thumbnails/
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Process dumps
+core
+core.*
+vgcore.*
+
+# ------------------------------------------------------------------------------
+# 4. Local Runtime, Logs & Diagnostics
+# ------------------------------------------------------------------------------
+# Anchored ephemeral root directories (prevents matching nested source folders)
+/tmp/
+/temp/
+
+# Application runtime artifacts
+*.log
+*.tmp
+*.out
+*.pid
+*.seed
+*.retry
+
+# ------------------------------------------------------------------------------
+# 5. Terraform & OpenTofu
+# ------------------------------------------------------------------------------
+# Local hidden runtime directories & plugins
+**/.terraform/
+.terraform/
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# State files & local backups
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash dumps & execution plans
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.binary
+
+# Override files (local developer overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ------------------------------------------------------------------------------
+# 6. Go (Golang)
+# ------------------------------------------------------------------------------
+# Compiled binaries & test artifacts
+/sample
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+
+# Object files & archives
+*.o
+*.a
+
+# Local Go workspaces
+go.work
+go.work.sum
+
+# ------------------------------------------------------------------------------
+# 7. Kubernetes, Containers & Cloud Tooling
+# ------------------------------------------------------------------------------
+# Helm chart archives & local charts directory
+*.tgz
+charts/
+.helm/
+
+# Local kustomize build outputs
+kustomize.build/
+
+# Container runtime artifacts & local registries
+.docker/
+docker-compose.override.yml
+
+# ------------------------------------------------------------------------------
+# 8. Python & Scripting Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
