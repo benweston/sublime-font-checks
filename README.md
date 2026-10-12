@@ -2,7 +2,7 @@
 
 <div align="justify">
 
-> **A visual testbed and typography sandbox for evaluating monospace font rendering, glyph legibility, operator ligatures, and syntax color schemes in [Sublime Text](https://www.sublimetext.com/).**   
+> **A visual testbed and typography sandbox for evaluating monospace font rendering, glyph legibility, operator ligatures, and syntax colour schemes in [Sublime Text](https://www.sublimetext.com/).**   
 
 </div>
 
@@ -10,10 +10,10 @@
 
 <div align="justify">
 
-Selecting a monospace coding font and color scheme is often treated as a matter of brief aesthetic impression. However, everyday software engineering demands hours of dense reading where subtle typographic flaws cause cognitive friction:   
+Selecting a monospace coding font and colour scheme is often treated as a matter of brief aesthetic impression. However, everyday software engineering demands hours of dense reading where subtle typographic flaws cause cognitive friction:   
 - Easily confusable characters (`0` vs `O`, `1` vs `l` vs `I`, `;` vs `:`, `` ` `` vs `'` vs `"`) lead to undetected syntax bugs.   
 - Poorly spaced or oversized operator ligatures (`!=`, `===`, `=>`, `->`, `:=`) can obscure mathematical and structural intent.   
-- Inconsistent color scheme scopes cause identifiers, keywords, types, and strings to bleed together or wash out against dark, light, or OLED backgrounds.   
+- Inconsistent colour scheme scopes cause identifiers, keywords, types, and strings to bleed together or wash out against dark, light, or OLED backgrounds.   
 - Indentation guides, block scalars, heredocs, and regex syntax frequently trigger edge-case rendering issues in editor grammars.   
 
 **`sublime-font-checks`** provides a curated, production-grade test suite of code files across multiple programming languages, infrastructure configurations, and markup formats. Each sample file is intentionally engineered to stress-test typography, OpenType font features, and syntax highlighting scopes directly within Sublime Text.   
@@ -24,11 +24,11 @@ Selecting a monospace coding font and color scheme is often treated as a matter 
 
 <div align="justify">
 
-The repository contains six specialized sample files and a ready-to-open Sublime Text project:   
+The repository contains six specialised sample files and a ready-to-open Sublime Text project:   
 
 | File | Language / Ecosystem | Typography & Highlight Highlights |
 | :--- | :--- | :--- |
-| [`sample.sh`](sample.sh) | **Bash / Shell Script** | Shebang, parameter expansions (`${var//a/b}`, `${var:-default}`), ANSI 256-color escape sequences, regex matching (`=~`), subshells, arithmetic expansions, traps/signals, and an extensive **Visual Disambiguation & Ligature Matrix**. |
+| [`sample.sh`](sample.sh) | **Bash / Shell Script** | Shebang, parameter expansions (`${var//a/b}`, `${var:-default}`), ANSI 256-colour escape sequences, regex matching (`=~`), subshells, arithmetic expansions, traps/signals, and an extensive **Visual Disambiguation & Ligature Matrix**. |
 | [`sample.py`](sample.py) | **Python 3.12+** | PEP 695 type parameter syntax, structural pattern matching (`match`/`case`), `@dataclass(slots=True)`, async generators and context managers, walrus operator (`:=`), matrix multiplication operator (`@`), multi-line f-strings with complex formatting expressions. |
 | [`sample.go`](sample.go) | **Go (Golang)** | Generics with type constraints (`any`, `comparable`), nested struct tags (`json:"..." db:"..."`), `iota` bitmask enums, concurrency primitives (`chan`, `select`, `go`), pointer receivers, bit-clear operator (`&^`), numeric literals in hex/octal/binary/imaginary notations. |
 | [`sample.tf`](sample.tf) | **Terraform (HCL)** | Provider, resource, and module blocks; dynamic blocks; splat operators (`[*]`); complex type constraints; ternary conditionals; `for` comprehensions; built-in functions; heredoc templates with embedded `${...}` and `%{...}` interpolations. |
@@ -89,7 +89,7 @@ Examine the dedicated visual matrices in [`sample.sh`](sample.sh#L236-L253) and 
 - **Punctuation Pairs**:   
   - Colon `:` vs Semicolon `;` (crucial in C, Go, Python, and JavaScript).   
   - Quotes: Backtick `` ` `` vs Single Quote `'` vs Double Quote `"`.   
-  - Commas and Periods: `,` vs `.` at sizes 10pt–13pt.   
+  - Commas and Full Stops: `,` vs `.` at sizes 10pt–13pt.   
   - Hyphen `-` vs Underscore `_` vs En-dash `–` vs Em-dash `—`.   
 - **Brackets and Enclosures**: Nested `(parentheses)`, `[brackets]`, `{braces}`, `<angle brackets>`.   
 
@@ -120,7 +120,7 @@ Observe how your font renders operator sequences across code blocks:
 
 <div align="justify">
 
-Evaluate how your current color scheme handles fine-grained scopes:   
+Evaluate how your current colour scheme handles fine-grained scopes:   
 
 - **Keywords vs. Built-ins**: Are language keywords (`def`, `func`, `select`, `match`, `terraform`) clearly distinguishable from standard library functions and built-in types?   
 - **Comments & Annotations**: Are comments legible or overly dimmed? Do annotations (`TODO`, `FIXME`, `NOTE`, `WARN`, `BUG`) stand out with punchy contrast?   
@@ -210,7 +210,7 @@ This displays the full selector chain (e.g., `source.go entity.name.function.go`
 
 </div>
 
-## 🎨 Recommended Fonts & Color Schemes to Compare
+## 🎨 Recommended Fonts & Colour Schemes to Compare
 
 ### Popular Monospace Coding Fonts to Test
 
@@ -220,7 +220,7 @@ This displays the full selector chain (e.g., `source.go entity.name.function.go`
 - **Berkeley Mono**: Crafted, artisanal grid alignment and high-contrast punctuation.   
 - **Fira Code**: The classic ligature-rich programming font with numerous stylistic sets.   
 - **Cascadia Code**: Microsoft's modern coding font with cursive italics and box-drawing precision.   
-- **Iosevka**: Highly customizable, compact proportions ideal for split-screen layouts.   
+- **Iosevka**: Highly customisable, compact proportions ideal for split-screen layouts.   
 - **Monaspace** (GitHub): Five distinct styles (Argon, Neon, Xenon, Radon, Krypton) with Texture Healing.   
 - **Intel One Mono**: Engineered specifically for maximum legibility and reduced eye strain.   
 - **Victor Mono**: Distinctive cursive italics paired with crisp monospace characters.   
@@ -229,7 +229,7 @@ This displays the full selector chain (e.g., `source.go entity.name.function.go`
 
 </div>
 
-### Color Schemes to Compare
+### Colour Schemes to Compare
 
 <div align="justify">
 
@@ -238,10 +238,10 @@ This displays the full selector chain (e.g., `source.go entity.name.function.go`
 
 </div>
 
-## 📄 License
+## 📄 Licence
 
 <div align="justify">
 
-The `sublime-font-checks` repository is open source and provided under the [MIT License](https://github.com/benweston/sublime-font-checks/blob/main/LICENSE).  Feel free to use and adapt it for your personal or team development environment setups.   
+The `sublime-font-checks` repository is open source and provided under the [MIT Licence](https://github.com/benweston/sublime-font-checks/blob/main/LICENSE).  Feel free to use and adapt it for your personal or team development environment setups.   
 
 </div>
