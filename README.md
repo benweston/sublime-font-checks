@@ -252,6 +252,7 @@ This displays the full selector chain (e.g., `source.go entity.name.function.go`
 
 <div align="justify">
 
-The `sublime-font-checks` repository is open source and provided under the [MIT Licence](https://github.com/benweston/sublime-font-checks/blob/main/LICENSE).  Feel free to use and adapt it for your personal or team development environment setups.   
+The `sublime-font-checks` repository is open source and provided under the [MIT Licence](https://github.com/benweston/sublime-font-checks/blob/main/LICENSE).   
+Banner image taken from photo by [Andrey Soldatov](https://unsplash.com/@andrilliardbond) on [Unsplash](https://unsplash.com/photos/abstract-glowing-crosses-against-dark-background-_uAlo5JK6Yc) via the [Unsplash License](https://unsplash.com/license).   
 
 </div>
