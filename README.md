@@ -34,7 +34,7 @@ Selecting a monospace coding font and colour scheme is often treated as a matter
 
 <div align="justify">
 
-The repository contains six specialised sample files and a ready-to-open Sublime Text project:   
+The repository contains six specialised sample files:   
 
 | File | Language / Ecosystem | Typography & Highlight Highlights |
 | :--- | :--- | :--- |
@@ -44,7 +44,6 @@ The repository contains six specialised sample files and a ready-to-open Sublime
 | [`sample.tf`](sample.tf) | **Terraform (HCL)** | Provider, resource, and module blocks; dynamic blocks; splat operators (`[*]`); complex type constraints; ternary conditionals; `for` comprehensions; built-in functions; heredoc templates with embedded `${...}` and `%{...}` interpolations. |
 | [`sample-k8s.yaml`](sample-k8s.yaml) | **Kubernetes YAML** | Multi-document manifests separated by `---`, YAML anchors (`&ref`) and aliases (`*ref`), literal/folded block scalars (`\|`, `\|-`, `>`), secrets, deep multi-level indentation stress-testing editor indentation guides. |
 | [`sample.Dockerfile`](sample.Dockerfile) | **Dockerfile (BuildKit)** | Multi-stage build architecture, `# syntax` parser directives, BuildKit cache and secret mounts (`--mount=type=cache`), execution heredocs (`RUN <<-EOF`), OCI metadata labels, healthcheck commands, multi-architecture build arguments. |
-| [`sublime-font-checks.sublime-project`](sublime-font-checks.sublime-project) | **Sublime Text Project** | Root project configuration for opening the workspace in Sublime Text with one click or command. |
 
 </div>
 
@@ -65,11 +64,11 @@ cd sublime-font-checks
 
 <div align="justify">
 
-Launch Sublime Text directly with the project file:   
+Launch Sublime Text directly in the repository directory:   
 ```bash
-subl sublime-font-checks.sublime-project
+subl .
 ```
-*Or open Sublime Text and use **Project** > **Open Project...** to select `sublime-font-checks.sublime-project`.*   
+*Or launch Sublime Text and open the `sublime-font-checks` directory via **File** > **Open Folder...**.*   
 
 </div>
 
