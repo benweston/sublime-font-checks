@@ -32,12 +32,12 @@ The files in this repository exist to be opened directly in Sublime Text to test
 
 | File | Language / Format | Highlighted Features & Scopes |
 | :--- | :--- | :--- |
-| [`sample.sh`](file:///home/benweston/Documents/sublime-font-checks/sample.sh) | **Bash / Shell** | Shebang, parameter expansions (`${var//a/b}`), regex matching, command substitutions, heredocs, ANSI escape codes, arithmetic expansions, signals, traps, ligatures. |
-| [`sample.tf`](file:///home/benweston/Documents/sublime-font-checks/sample.tf) | **Terraform (HCL)** | Provider/resource/module blocks, heredoc templates, dynamic blocks, splat operators (`[*]`), complex types, ternary expressions, `for` comprehensions, built-in functions. |
-| [`sample-k8s.yaml`](file:///home/benweston/Documents/sublime-font-checks/sample-k8s.yaml) | **Kubernetes YAML** | Multi-document manifests (`---`), YAML anchors (`&ref`) & aliases (`*ref`), literal/folded block scalars (`\|`, `>`), secrets, probes, deep nesting, indentation guide stress-test. |
-| [`sample.go`](file:///home/benweston/Documents/sublime-font-checks/sample.go) | **Go (Golang)** | Generics, struct tags (nested syntax), `iota` enums, concurrency (`go`, `chan`, `select`), pointer receivers, raw strings, numeric literals (hex/binary/float), rune literals. |
-| [`sample.py`](file:///home/benweston/Documents/sublime-font-checks/sample.py) | **Python** | PEP 695 type parameters, `@dataclass(slots=True)`, structural pattern matching (`match`/`case`), async generators/context managers, walrus operator (`:=`), matrix multiply (`@`), complex f-strings. |
-| [`sample.Dockerfile`](file:///home/benweston/Documents/sublime-font-checks/sample.Dockerfile) | **Dockerfile** | Multi-stage architecture, BuildKit directives (`# syntax`), cache & secret mounts, execution heredocs (`RUN <<-EOF`), OCI metadata labels, healthcheck, multi-architecture build args. |
+| [`sample.sh`](sample.sh) | **Bash / Shell** | Shebang, parameter expansions (`${var//a/b}`), regex matching, command substitutions, heredocs, ANSI escape codes, arithmetic expansions, signals, traps, ligatures. |
+| [`sample.tf`](sample.tf) | **Terraform (HCL)** | Provider/resource/module blocks, heredoc templates, dynamic blocks, splat operators (`[*]`), complex types, ternary expressions, `for` comprehensions, built-in functions. |
+| [`sample-k8s.yaml`](sample-k8s.yaml) | **Kubernetes YAML** | Multi-document manifests (`---`), YAML anchors (`&ref`) & aliases (`*ref`), literal/folded block scalars (`\|`, `>`), secrets, probes, deep nesting, indentation guide stress-test. |
+| [`sample.go`](sample.go) | **Go (Golang)** | Generics, struct tags (nested syntax), `iota` enums, concurrency (`go`, `chan`, `select`), pointer receivers, raw strings, numeric literals (hex/binary/float), rune literals. |
+| [`sample.py`](sample.py) | **Python** | PEP 695 type parameters, `@dataclass(slots=True)`, structural pattern matching (`match`/`case`), async generators/context managers, walrus operator (`:=`), matrix multiply (`@`), complex f-strings. |
+| [`sample.Dockerfile`](sample.Dockerfile) | **Dockerfile** | Multi-stage architecture, BuildKit directives (`# syntax`), cache & secret mounts, execution heredocs (`RUN <<-EOF`), OCI metadata labels, healthcheck, multi-architecture build args. |
 
 ---
 
